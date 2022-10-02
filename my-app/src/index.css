@@ -1,0 +1,80 @@
+body {
+background-color: rgb(251, 247, 247);
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.card {
+    box-shadow: 1px 10px 13px 0px rgba(209,209,209,1);
+    background-color: white;
+    max-width: 264px;
+    border-radius: 10px;
+    height: 340px;
+}
+
+.countries-image {
+    width: 264px;
+    height: 162px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.countries-name {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.countries-details {
+    margin-left: 10px;
+}
+
+.countries-button {
+    margin: 20px 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 235, 235);
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    
+}
+
+.countries-button:hover {
+    background-color: rgb(203, 199, 199);
+}
+
+.card-image {
+    height: 300px;
+    width: auto;
+    box-shadow: 1px 10px 13px 0px rgba(209,209,209,1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.card-info {
+    
+}
+
+.image-arrow {
+    height: 40px;
+    width: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+}
